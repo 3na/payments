@@ -1,15 +1,15 @@
 <?php
 // Database variables
 $host = "localhost"; //database location
-$user = "wacowla_krx"; //database username
-$pass = "2n329fdx"; //database password
-$db_name = "wacowla_wrdp1"; //database name
+$user = "user"; //database username
+$pass = "pass"; //database password
+$db_name = "wordpress"; //database name
 
-// PayPal settings {login_access=1334334634}
-$paypal_email = 'd4e3px_1333987530_biz@gmail.com'; //Password: 334078859
-$return_url = 'http://wacowla.com/page-successful';
-$cancel_url = 'http://wacowla.com/page-cancelled';
-$notify_url = 'http://wacowla.com/wp-content/plugins/payments/payments.php';
+// PayPal settings
+$paypal_email = 'd4e3px_1333987530_biz@gmail.com';
+$return_url = 'http://localhost/page-successful';
+$cancel_url = 'http://localhost/page-cancelled';
+$notify_url = 'http://localhost/wp-content/plugins/payments/payments.php';
 
 $item_name = $_POST['os0'];
 $item_amount = 24.00;

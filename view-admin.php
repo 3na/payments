@@ -4,7 +4,7 @@
     Plugin URI: http://wacowla.com
     Description: Magazine Invoicer for WaCowLA
     Author: Ephramar Telog, CK
-    Version: Stable
+    Version: Trunk
     Author URI: http://clubkoncepto.com
 */
 
